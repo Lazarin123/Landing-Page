@@ -1,0 +1,14 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:sass": "sass src/styles/index.scss src/styles/index.css --no-source-map --style=expanded",
+    "watch:sass": "sass --watch src/styles/index.scss:src/styles/index.css",
+    "start": "live-server src --port=3000 --no-browser"
+  },
+  "devDependencies": {
+    "sass": "^1.97.1",
+    "live-server": "^1.2.2"
+  }
+}
